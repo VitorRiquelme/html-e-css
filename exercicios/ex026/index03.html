@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>labes</title>
+</head>
+<body>
+    <h1>teste com formularios</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+         <p>
+             <label for="inome">nome:</label>
+             <input type="text" name="nome" id="inome" required  minlength="3" placeholder="nome completo" autocomplete="name">
+         </p>
+           
+         <p>
+            <label for="imedia">média:</label>
+            <input type="number" name="media" id="imedia" min="0" max="10" step="0.5">
+         </p>
+         <p><label for="idia">dia da prova</label></p>
+         <input type="date" name="data" id="idate">
+         <p>
+            <label for="isenha">senha:</label>
+            <input type="password" name="senha" id="isenha" placeholder="digite sua senha" maxlength="20" minlength="8" required>
+         </p>
+         <input type="submit" value="enviar">
+    </form>
+</body>
+</html>
