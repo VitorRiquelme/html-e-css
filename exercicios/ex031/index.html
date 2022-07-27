@@ -6,7 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Elementos de formulario</title>
     <style>
+        input{
+            display: block;
+            margin-bottom: 12px;
+        }
         form{
+    
             background-color: lightgray;
             border: solid black 1px;
             border-radius: 15px;
@@ -21,8 +26,13 @@
         <label for="senha">senha:</label>
         <input type="password" name="senha" id="senha" maxlength="12">
         <input type="submit" value="enviar">
-    </form>
+       </form>
     
+       <form action="">
+        <label for="esporter">esolha um esportes</label>
+        <input type="radio" name="fut" id="fut">dutebol
+        <input type="radio" name="fut" id="basque">basquet
+       </form>
     
 </body>
 </html>
