@@ -52,4 +52,9 @@ section, footer{
 }
 .ironMaiden{
     display: flex;
+    
+}
+.ironMaiden img{
+    margin: auto;
+    border-radius: 10px;
 }
