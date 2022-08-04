@@ -40,7 +40,6 @@ header nav ul li a:hover{
 }
 
 section{
-    border: 1px solid black;
     height: 500px;
 }
 
@@ -49,6 +48,7 @@ section:nth-child(even){
 }
 section, footer{
     padding-top: 60px;
+    padding-bottom: 60px;
 }
 .ironMaiden{
     display: flex;
@@ -57,4 +57,23 @@ section, footer{
 .ironMaiden img{
     margin: auto;
     border-radius: 10px;
+}
+.borda0{
+    border: none;
+}
+.borda1{
+    border: 1px solid black;
+}
+.borda2{
+    border: 1px solid red;
+}
+.flexivel{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+article{
+    width: 100%;
+    text-align: center;
 }
