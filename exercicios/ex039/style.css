@@ -81,7 +81,7 @@ article{
 
 [data-anima]{
     opacity: 0;
-    transition: .5s;
+    transition: .8s;
 }
 [data-anima="esquerda"]{
     transform: translate3d(-50px, 0 , 0);

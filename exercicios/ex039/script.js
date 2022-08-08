@@ -14,5 +14,7 @@ function animaScroll(){
 }
 
 if(elementos.length){
-    window.addEventListener('scroll',function())
+    window.addEventListener('scroll',function(){
+        animaScroll()
+    })
 }
