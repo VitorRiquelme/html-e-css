@@ -99,10 +99,14 @@ article{
     transform: translate3d(0,0,0);
 }
 .parallax{
-    
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 .p1{
     background-image: url(imagens/twitchimagem.jpg);
+    
 }
 .p2{
 background-image: url(imagens/Twitch_2.jpg);
