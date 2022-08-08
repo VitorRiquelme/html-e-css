@@ -18,3 +18,22 @@ if(elementos.length){
         animaScroll()
     })
 }
+
+function cliquemodal(img){
+    const janelamodal=document.getElementById("janelamodal")
+    const imgmodal=document.getElementById("imgmodal")
+    const txtmodal=document.getElementById("txtmodal")
+    const bntfechar=document.getElementById("bntfechar")
+
+    janelamodal.classList.remove("escondejanelamodal")
+    janelamodal.classList.add("mostrajanelamodal")
+
+    imgmodal.src=img.src
+    imgmodal.alt=img.alt
+    txtmodal.innerHTML=img.alt
+
+    bntfechar.onclick=function(){
+        janelamodal.classList.add("escondejanelamodal")
+        janelamodal.classList.remove("mostrajanelamodal")
+    }
+}
