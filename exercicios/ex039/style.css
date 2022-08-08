@@ -136,3 +136,36 @@ background-image: url(imagens/Twitch_2.jpg);
     z-index: 1919019;
     background-color: rgba(0,0,0,0.8);
 }
+
+.mostrajanelamodal{
+    display: block;
+}
+.escondejanelamodal{
+    display: none;
+}
+.fecharmodal{
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+.imgmodal{
+    margin: auto;
+    display: block;
+    width: 100%;
+    max-width: 800px;   
+}
+.txtmodal{
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: grey;
+    padding: 10px 0px;
+    height: 150px;
+}
