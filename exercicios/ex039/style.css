@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 html{
@@ -96,4 +97,13 @@ article{
 [data-anima].animacao{
     opacity: 1;
     transform: translate3d(0,0,0);
+}
+.parallax{
+    
+}
+.p1{
+    background-image: url(imagens/twitchimagem.jpg);
+}
+.p2{
+background-image: url(imagens/Twitch_2.jpg);
 }
