@@ -1,0 +1,13 @@
+body{
+    background-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    text-align: center;
+}
+.diferente{
+    text-align: justify;
+}
+.vermelho{
+    color: red;
+}
