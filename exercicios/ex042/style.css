@@ -10,4 +10,17 @@ p{
 }
 .vermelho{
     color: red;
+    margin-bottom: 70px;
+}
+a.botao1{
+    text-decoration: none;
+    border: 1px solid green ;
+    color: white;
+    padding: 15px;
+    background-color: black;
+}
+a.botao1:hover{
+    color: red;
+    padding: 20px;
+    text-decoration: underline;
 }
