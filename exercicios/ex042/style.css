@@ -1,18 +1,6 @@
-.red{
-    background-color: red;
+.ex1{
+    width: 800px;
 }
-.blue{
-    background-color: blue;
-}
-.green{
-    background-color: green;
-}
-div{
-    display: inline-block;
-    width: 33%;
-    height: 150px;
-}
-.fodona{
-    display: block;
-    width: 100%;
+.ex2{
+    width: 800px;
 }
