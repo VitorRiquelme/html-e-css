@@ -5,6 +5,23 @@
     height: 400px;
     position: relative;
 }
+.topo{
+    background-color: red;
+    position: absolute;
+    left: 50%;
+}
+.meio{
+    background-color: navy;
+    position: absolute;
+    left: 50%;
+    top: 180px;
+}
+.baixo{
+    background-color: yellow;
+    position: absolute;
+    left: 50%;
+    top: 380px;
+}
 .oi{
     background-color: green;
     color: white;
