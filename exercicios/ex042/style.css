@@ -1,1 +1,8 @@
-
+.exemplo{
+    background-color: blue;
+    color: red;
+    height: 50px;
+}
+body{
+    overflow-x: hidden;
+}
