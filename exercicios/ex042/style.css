@@ -1,8 +1,30 @@
-.exemplo{
-    background-color: blue;
-    color: red;
-    height: 50px;
+.container{
+    border: 1px solid black;
+    overflow: auto;
 }
-body{
-    overflow-x: hidden;
+img{
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+}
+.container img{
+    float: left;
+}
+ul{
+    background-color: rgb(7, 7, 7);
+    padding: 20px;
+}
+li{
+    display: inline-block;
+}
+li a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+li a:hover{
+    background-color: red;
+}
+.login{
+    float: right;
 }
