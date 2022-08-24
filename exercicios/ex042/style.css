@@ -3,8 +3,7 @@
     background-color: lightgray;
     position: fixed;
 }
-#navegacao a{
+#navegacao li{
     text-decoration: none;
     display: inline-block;
-    display: flex;
 }
