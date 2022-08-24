@@ -1,0 +1,13 @@
+.left{
+    position: absolute;
+    left: 89px;
+    right: 4px;
+}
+.top{
+    position: relative;
+    width: 100%;
+}
+.background{
+    background-color: cadetblue;
+    position: fixed;
+}
