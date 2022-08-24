@@ -1,13 +1,10 @@
-.left{
-    position: absolute;
-    left: 89px;
-    right: 4px;
-}
-.top{
-    position: relative;
+#navegacao{
     width: 100%;
-}
-.background{
-    background-color: cadetblue;
+    background-color: lightgray;
     position: fixed;
+}
+#navegacao a{
+    text-decoration: none;
+    display: inline-block;
+    display: flex;
 }
