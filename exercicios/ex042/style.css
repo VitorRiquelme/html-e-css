@@ -1,0 +1,36 @@
+ul{
+    background-color: black;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+li{
+    float: left;
+}
+li a, .botao{
+    display: inline-block;
+    color: white;
+    padding: 20px ;
+    text-decoration: none;
+}
+li a:hover, .dropdown:hover .botao{
+    background-color: red;
+}
+li.dropdown{
+    display: inline-block;
+}
+.content{
+    position: absolute;
+    background: white;
+    width: 150px;
+    display: none;
+}
+.content a{
+    color: black;
+    display: block;
+    text-align: left;
+}
+.dropdown:hover .content{
+    display: block;
+}
