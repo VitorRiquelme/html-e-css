@@ -20,6 +20,7 @@ li a:hover, .dropdown:hover .botao{
 li.dropdown{
     display: inline-block;
 }
+
 .content{
     position: absolute;
     background: white;
