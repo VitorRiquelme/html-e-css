@@ -72,3 +72,6 @@ li a:hover{
     height: 100%;
     padding: 10px;
 }
+footer a{
+    color: white;
+}
