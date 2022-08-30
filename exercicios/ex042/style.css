@@ -28,6 +28,7 @@ h1{
     font-size: 3rem;
     margin-bottom: 3rem;
 }
+
 .social{
     display: flex;
     align-content: center;
@@ -41,6 +42,27 @@ h1{
 }
 .social a:first-child img{
     margin-left: 0px;
+}
+.alternativo{
+    margin-top: 1rem;
+}
+.alternativo span{
+     font-size: 1.1rem;
+     font-weight: 400;
+     color: rgba(255, 255, 255,0.3);
+     position: relative;
+}
+main.alternativo span ::before, main.alternativo span ::after{
+    position: absolute;
+    content: '';
+    height: 1px;
+    width: 100px;
+    background: rgba(255, 255, 255,0.3);
+    bottom: 50%;
+    right: 50px;
+}
+.alternativo span ::after{
+    left: 50px;
 }
 main form{
     display: flex;
@@ -60,7 +82,7 @@ main form input{
     width: 300px;
     height: 50px;
     padding: 0px 0.5rem;
-    margin-top: 1rem;
+    
     outline: none;
     color: rgba(166, 166, 166);
     font-size: 1rem;
