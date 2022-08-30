@@ -28,3 +28,20 @@ h1{
     font-size: 3rem;
     margin-bottom: 3rem;
 }
+.social{
+    display: flex;
+    align-content: center;
+}
+.social a{
+    text-decoration: none;
+}
+.social img{
+    width: 36px;
+    margin-left: 3rem;
+}
+.social a:first-child img{
+    margin-left: 0px;
+}
+main form{
+    
+}
