@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#nome{
+    padding: 6px;
+    border-radius: 10px;
+    background-color: #8c79;
+    color: white;
+}
+#email{
+    padding: 6px;
+    border-radius: 10px;
+    background-color: #8c79;
+    color: white;
+}
+#senha{
+    padding: 6px;
+    border-radius: 10px;
+    background-color: #8c79;
+    color: white;
+}
+#enviar{
+    padding: 6px;
+    border-radius: 10px;
+    background-color: #8c79;
+    color: black;
+}
