@@ -1,3 +1,6 @@
+body{
+    background-color: rgba(170, 94, 241, 0.89);
+}
 h1{
     text-shadow: 1px 1px red;
 }
