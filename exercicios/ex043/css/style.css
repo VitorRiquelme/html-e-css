@@ -1,0 +1,28 @@
+.butao{
+    background: rebeccapurple;
+    color: beige;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+.amarelo{
+    background: yellow;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+#fundo{
+    background: black;
+}
+#branco{
+    background: white;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+.amarelo:hover{
+    cursor: pointer;
+    background-color: rgba(247, 247, 26, 0.856);
+}
