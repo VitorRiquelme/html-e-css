@@ -1,28 +1,10 @@
-.butao{
-    background: rebeccapurple;
-    color: beige;
-    border: none;
-    padding: 10px;
-    border-radius: 10px;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,300&display=swap');
+body{
+    background-color: #DCDCDC;
+    font-family: "Roboto", sans-serif;
 }
-.amarelo{
-    background: yellow;
-    color: black;
-    border: none;
-    border-radius: 10px;
-    padding: 10px;
-}
-#fundo{
-    background: black;
-}
-#branco{
-    background: white;
-    color: black;
-    padding: 10px;
-    border-radius: 10px;
-    border: none;
-}
-.amarelo:hover{
-    cursor: pointer;
-    background-color: rgba(247, 247, 26, 0.856);
+.estilo{
+    font-size: 25px; /*estilo do tamanho do texto*/
+    font-weight: bold;/*fontes em negrito*/
+    color:#9932CC;
 }
