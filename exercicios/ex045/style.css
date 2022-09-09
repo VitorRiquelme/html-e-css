@@ -1,6 +1,7 @@
 .container{
     background-color: bisque;
     padding: 20px;
+    display: flex;
 }
 .flex{
     width: 200px;
