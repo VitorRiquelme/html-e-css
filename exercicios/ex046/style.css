@@ -1,6 +1,8 @@
 .container{
     background-color: #d5d6fa;
     padding: 20px;
+    display: flex;
+
 }
 .flex{
     width: 100px;
@@ -11,4 +13,20 @@
     text-align: center;
     font-size: 28px;
     font-family: sans-serif;
+}
+/*Propiedad order exemplifica a ordem de um obejto*/
+/*Propiedade flex-grow faz com que algum obejo cresca até que ele ocupe o espaço que está faltando no container o numero dentro do flex grow mostra o quanto deve crescer para ocupar o flexgrow pode ser usado em mais de um objeto*/
+/*flex shrink faz com que um objeto selecionado com o valor 0 nao diminua junto com o tamanho da página e quanto o maior for o valor mais pequeno ele ficará em relação aos outros*/
+/*flex-basis faz com que a largura(no heixo horizontal) cresca de acordo com os pixels que voce colocar ou a altura (no heixo vertical)*/
+.box1{
+    
+}
+.box2{
+    
+}
+.box3{
+    
+}
+.box4{
+    
 }
