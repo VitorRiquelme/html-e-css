@@ -2,8 +2,9 @@
     background-color: bisque;
     padding: 20px;
     display: flex;
-    justify-content: space-between;/*para alinhar os obejtos em linha no eixo horizontal utiliza-se o justify content*/
+    justify-content: space-around;/*para alinhar os obejtos em linha no eixo horizontal utiliza-se o justify content*/
     /*space-between usa um espaço entre os elementos utilizando toda a largura igualmente entre eles*/
+    /*space-arround usa espaços em volta dos objetos*/
     /* o flex bos possui 2 eixos o principal e o transversal quando o flex direction é row o eixo principal fica na horizontal e o transversal fica na vertical e quando fica em coluna isso inverte o eixo principal fica na vertical e o eixo transversal fica na horizontal*/
 }
 .flex{
