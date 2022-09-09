@@ -2,12 +2,17 @@
     background-color: bisque;
     padding: 20px;
     display: flex;
-    justify-content: flex-end;/*para alinhar os obejtos em linha no eixo horizontal utiliza-se o justify content*/
+    justify-content: center;
+    align-items: center;
+    /*para alinhar os obejtos em linha no eixo horizontal utiliza-se o justify content*/
     /*space-between usa um espaço entre os elementos utilizando toda a largura igualmente entre eles*/
     /*space-arround usa espaços em volta dos objetos*/
     /*flex-end joga todos objetos para final do container(o lado direito)*/
     /*flex-start joga todos os obejtos para o começo do container(o lado esquerdo)*/
     /*align-itens usa no eixo transversal(vertical) do elemento que como base já vem o "stretch" que faz com que os elementos usem o maximo da altura que puderem*/
+    /*flex-start os elementos se alinham pelo topo no inicio do flex container*/
+    /*alinha ao centro align-itens center
+    /*flex end se alinha embaixo no chao do container*/
     /* o flex bos possui 2 eixos o principal e o transversal quando o flex direction é row o eixo principal fica na horizontal e o transversal fica na vertical e quando fica em coluna isso inverte o eixo principal fica na vertical e o eixo transversal fica na horizontal*/
 }
 .flex{
