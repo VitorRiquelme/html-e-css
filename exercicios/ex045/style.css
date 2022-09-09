@@ -3,7 +3,7 @@
     padding: 20px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    flex-wrap: wrap;
     /*para alinhar os obejtos em linha no eixo horizontal utiliza-se o justify content*/
     /*space-between usa um espaço entre os elementos utilizando toda a largura igualmente entre eles*/
     /*space-arround usa espaços em volta dos objetos*/
