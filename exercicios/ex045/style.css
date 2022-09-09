@@ -2,8 +2,11 @@
     background-color: bisque;
     padding: 20px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     flex-wrap: wrap;
+    /*JUSTIFY NA HORIZONTAL(O EIXO PRINCIPAL) E ALING NO EIXO VERTICAL(O EIXO PRINCIPAL*/
+    /*FLEX WRAP utilazase para quebrar os objetos de acordo com o tamanho da tela(muito importante para a responsividade do site*/
     /*para alinhar os obejtos em linha no eixo horizontal utiliza-se o justify content*/
     /*space-between usa um espaço entre os elementos utilizando toda a largura igualmente entre eles*/
     /*space-arround usa espaços em volta dos objetos*/
