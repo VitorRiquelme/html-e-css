@@ -1,6 +1,6 @@
 .flex{
     display: flex;
-    background-color: aqua;
+    background-color: rgb(0, 0, 0);
 }
 .item{
     padding: 20px;
