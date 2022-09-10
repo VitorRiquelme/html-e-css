@@ -1,0 +1,10 @@
+.flex{
+    display: flex;
+
+}
+.item{
+    padding: 20px;
+    background: maroon;
+    color: white;
+    margin: 10px;
+}
