@@ -19,14 +19,14 @@
 /*flex shrink faz com que um objeto selecionado com o valor 0 nao diminua junto com o tamanho da página e quanto o maior for o valor mais pequeno ele ficará em relação aos outros*/
 /*flex-basis faz com que a largura(no heixo horizontal) cresca de acordo com os pixels que voce colocar ou a altura (no heixo vertical)*/
 .box1{
-    
+    order: 3;
 }
 .box2{
-    
+    order: 2;
 }
 .box3{
-    
+    order: 1;
 }
 .box4{
-    
+    order: 4;
 }
