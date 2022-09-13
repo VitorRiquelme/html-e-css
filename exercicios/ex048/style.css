@@ -57,3 +57,6 @@
     font-size: 12px;
     margin-bottom: 4px;
 }
+#Rock{
+    scroll-behavior: smooth;
+}
