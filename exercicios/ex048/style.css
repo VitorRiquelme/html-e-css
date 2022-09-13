@@ -1,10 +1,18 @@
 *{
     box-sizing: border-box;
 }
+.main{
+    display: flex;
+    background-color: azure;
+    justify-content: space-around;
+}
 .borda{
     width: 200px;
     height: 200px;
     border: 1px solid black;
     padding: 0 20px;
     margin: 30px;
+    background-color: brown;
+    padding-top: 100px;
+    text-align: center;
 }
