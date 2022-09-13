@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    align-content: center;
+}
+.imagem img{
+    width: 300px;
+    height: 500px;
+    border-radius: 10px 0px 0px 10px;  
+}
+.texto{
+  
+    background-color: white;
+    width: 300px;
+    height: 500px;
+    border-radius: 0px 10px 10px 0px;
+}
