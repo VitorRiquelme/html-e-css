@@ -16,6 +16,9 @@
     padding-top: 100px;
     text-align: center;
 }
+.borda:hover{
+    cursor: pointer;
+}
 .menu{
     background-color: forestgreen;
     padding: 15px;
