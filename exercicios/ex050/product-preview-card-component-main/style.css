@@ -48,5 +48,10 @@ body{
     text-align: start;
 }
 .mane{
-    padding: 15px;
+    padding: 10px;
+    background-color:hsl(158, 36%, 37%) ;
+    color: white;
+    border-radius: 10px;
+    width: 230px;
+    text-align: center;
 }
