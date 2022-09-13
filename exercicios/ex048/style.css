@@ -5,25 +5,22 @@
 }
 .main{
     display: flex;
-    background-color: rgb(168, 226, 226);
     justify-content: space-around;
 }
 .borda{
     width: 200px;
     height: 200px;
-    border: 1px solid black;
     padding: 0 20px;
     margin: 30px;
     background-color: brown;
     padding-top: 100px;
     text-align: center;
-    margin-top: 50px;
 }
 .menu{
     background-color: forestgreen;
     padding: 15px;
     width: 100%;
-    background-attachment: fixed;
+    position: fixed;
 }
 .menu ul{
     display: flex;
@@ -39,6 +36,21 @@
     border-radius: 60px;
     padding: 10px;
     font-size: 12px;
-    margin-top: 10px;
     margin-bottom: 2px;
+    background-color: rgba(165, 163, 163, 0.836);
+}
+.titulos1{
+    border: 1px solid black;
+    border-radius: 60px;
+    padding: 10px;
+    font-size: 12px;
+    margin-bottom: 2px;
+    background-color: rgba(165, 163, 163, 0.836);
+}
+.titulos2{
+    background-color: white; 
+    border-radius: 60px;
+    padding: 10px;
+    font-size: 12px;
+    margin-bottom: 4px;
 }
