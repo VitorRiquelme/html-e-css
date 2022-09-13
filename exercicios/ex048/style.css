@@ -1,9 +1,11 @@
 *{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 .main{
     display: flex;
-    background-color: azure;
+    background-color: rgb(168, 226, 226);
     justify-content: space-around;
 }
 .borda{
@@ -15,4 +17,28 @@
     background-color: brown;
     padding-top: 100px;
     text-align: center;
+    margin-top: 50px;
+}
+.menu{
+    background-color: forestgreen;
+    padding: 15px;
+    width: 100%;
+    background-attachment: fixed;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.menu ul a{
+    text-decoration:  none;
+    color: white;
+}
+.titulos{
+    border: 1px solid black;
+    border-radius: 60px;
+    padding: 10px;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 2px;
 }
