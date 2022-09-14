@@ -18,13 +18,13 @@ body{
 }
 .imagem img{
     width: 300px;
-    height: 500px;
+    height: 430px;
     border-radius: 10px 0px 0px 10px;  
 }
 .texto{
     background-color: white;
     width: 300px;
-    height: 500px;
+    height: 430px;
     border-radius: 0px 10px 10px 0px;
     padding: 35px;
 }
@@ -40,18 +40,21 @@ body{
 .mando{
     font-family: 'Fraunces';
     display: inline;
-    padding-right: 10px;
-    
+    padding-right: 10px;  
 }
 .texto p{
     font-size: 14px;
     text-align: start;
 }
 .mane{
-    padding: 10px;
+    display: flex;
+    padding: 13px;
     background-color:hsl(158, 36%, 37%) ;
     color: white;
-    border-radius: 10px;
+    border-radius: 7px;
     width: 230px;
     text-align: center;
+    border: none;
+    align-items: center;
+    justify-content: center;
 }
