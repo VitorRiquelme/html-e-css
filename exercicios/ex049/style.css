@@ -1,12 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .container{
     display: flex;
     border: 1px solid black;
-    width: 800px;
-    height: 700px;
-    justify-content: center;
+    width: 100%;
+    justify-content: space-around;
+    background-color: blueviolet;
+    padding: 20px;
 }
 .caixa{
     color: black;
     width: 200px;
     height: 400px;
+    background-color: aqua;
+    padding: 20px;
 }
