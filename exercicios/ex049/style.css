@@ -1,11 +1,12 @@
 .container{
-    background-color: blueviolet;
+    display: flex;
     border: 1px solid black;
     width: 800px;
     height: 700px;
+    justify-content: center;
 }
 .caixa{
-    width: 700px;
-    height: 300px;
-    color: brown;
+    color: black;
+    width: 200px;
+    height: 400px;
 }
