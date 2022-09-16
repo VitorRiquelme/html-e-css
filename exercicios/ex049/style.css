@@ -12,9 +12,17 @@
     padding: 20px;
 }
 .caixa{
+    display: flex;
     color: black;
     width: 200px;
     height: 400px;
     background-color: aqua;
     padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.dentro{
+    background-color: brown;
+    height: 150px;
+    width: 100px;
 }
