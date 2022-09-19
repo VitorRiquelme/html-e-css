@@ -1,9 +1,9 @@
 .container{
     display: flex;
+    justify-content: space-around;
 }
 .caixa{
     background-color: brown;
     padding: 10px;
     margin: 2px;
-    width: 100%;
 }
