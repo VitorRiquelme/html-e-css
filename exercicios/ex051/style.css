@@ -1,0 +1,9 @@
+.container{
+    display: flex;
+}
+.caixa{
+    background-color: brown;
+    padding: 10px;
+    margin: 2px;
+    width: 100%;
+}
