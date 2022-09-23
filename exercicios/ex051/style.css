@@ -6,3 +6,7 @@ body {
 #principal{
     width: 900px;
 }
+#menu{
+    background-color: #c5c5b2;
+    padding: 16px;
+}
