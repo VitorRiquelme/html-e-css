@@ -8,5 +8,11 @@ body {
 }
 #menu{
     background-color: #c5c5b2;
-    padding: 16px;
+    padding: 18px;
+}
+#menu a{
+    color: #4b566a;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px;
 }
