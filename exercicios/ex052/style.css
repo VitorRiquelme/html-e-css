@@ -1,23 +1,15 @@
-body{
-    background-color: #007fc7;
+.conteudo1{
+    border: 1px solid black;
+    background-color: gainsboro;
+    width: 200px;
+    height: 200px;
+    position: absolute;
 }
-#container{
-    background-color: #fff;
-    width: 800px;
-    margin: auto;
-    padding: 10px;
-    position: relative;
+.conteudo2{
+    border: 1px solid black;
+    background-color: powderblue;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 100px;
 }
-/*.relativo{
-    position: relative;
-    top: -88px;
-    left: 400px;
-}*/
-p{
-    width: 400px;
-}
-.fixo{
-    position: fixed;
-    bottom: 0px;
-    right: 0px;
-}/*PoSICIONAMENTO SÓ PODE SER ALINHANDO COM BASE NO SEU CONTAINER QEU PRECISA TER UM POSITION DIFERENTE DE STATICO*/
