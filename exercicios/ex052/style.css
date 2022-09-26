@@ -16,8 +16,8 @@ body{
 p{
     width: 400px;
 }
-.absoluto{
-    position: absolute;
-    top: 0;
-    right: 0;
-}
+.fixo{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}/*PoSICIONAMENTO SÓ PODE SER ALINHANDO COM BASE NO SEU CONTAINER QEU PRECISA TER UM POSITION DIFERENTE DE STATICO*/
