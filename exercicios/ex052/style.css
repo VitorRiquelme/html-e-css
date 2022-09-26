@@ -6,12 +6,18 @@ body{
     width: 800px;
     margin: auto;
     padding: 10px;
+    position: relative;
 }
-.relativo{
+/*.relativo{
     position: relative;
     top: -88px;
     left: 400px;
-}
+}*/
 p{
     width: 400px;
+}
+.absoluto{
+    position: absolute;
+    top: 0;
+    right: 0;
 }
