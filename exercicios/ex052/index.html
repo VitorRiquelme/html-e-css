@@ -8,22 +8,23 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <main id="container">
-    <section id="marca">marc</section>
-    <section id="cont">
-        <h2>adasd</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore necessitatibus similique, illo nisi expedita accusantium in, enim quae maiores aliquam quasi voluptate nam quaerat quam ratione omnis? Et, neque magni.</p>
-    </section>
-    <section id="nav">
-        <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">a</a></li>
-        <li><a href="#">b</a></li>
-        <li><a href="#">c</a></li>
-        <li><a href="#">d</a></li>
-        </ul> 
-</section>
-    <section id="rodape">r</section>
-   </main>
+   <h2>estilizando formularios</h2>
+   <form action="">
+    <fieldset><!--Filedsets são usados para agrupar dados semelhantes no formulario-->
+        <legend>Detalhes de contato</legend><!--legend é uma legenda para o agrupamento dos daos semalhantes-->
+        <div>
+            <label for="nome"> Nome:<!--label é uma eitqueta um rotulo--></label>
+            <input type="text" name="nome" id="nome"><!--O id é o For precisa ter o mesmo nome -->
+        </div>
+        <div>
+            <label for="email"> Email:</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div>
+            <label for="URL"> URL:</label>
+            <input type="text" name="url" id="URL">
+        </div>
+    </fieldset>
+   </form>
 </body>
 </html>
