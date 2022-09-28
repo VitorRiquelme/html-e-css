@@ -8,37 +8,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <h2>estilizando formularios</h2>
-   <form action="">
-    <fieldset><!--Filedsets são usados para agrupar dados semelhantes no formulario-->
-        <legend>Detalhes de contato</legend><!--legend é uma legenda para o agrupamento dos daos semalhantes-->
-        <div>
-            <label for="nome"> Nome:<!--label é uma eitqueta um rotulo--></label>
-            <input type="text" name="nome" id="nome"><!--O id é o For precisa ter o mesmo nome -->
-        </div>
-        <div>
-            <label for="email"> Email:</label>
-            <input type="email" name="email" id="email">
-        </div>
-        <div>
-            <label for="URL"> URL:</label>
-            <input type="text" name="url" id="URL">
-        </div>
-    </fieldset>  
-    <fieldset>
-        <legend>comentarios</legend>
-        <label for="mensagens">message:</label>
-        <textarea name="mensagens" id="mensagens" cols="30" rows="10"></textarea>
-    </fieldset>
-    <fieldset>
-        <legend>lembrar de mim ?</legend>
-        <label for="lembra">
-            <input type="radio" name="lembra" id="lembra">sim
-        </label>
-        <label for="lembras">
-            <input type="radio" name="lembra" id="lembras">não
-        </label>
-    </fieldset>
-</form>
+    <main id="container">
+        <img src="perfil.png" alt="">
+        <form action="">
+            <div>
+                <input type="text" name="email" id="email" class="email" placeholder="digite seu e-mail">
+            </div>
+            <div>
+                <input type="password" name="password" id="password" class="senha" placeholder="digite sua senha">
+            </div>
+            <div>
+                <input type="submit" class="submit" value="logar">
+            </div>
+        </form>
+    </main>
 </body>
 </html>
