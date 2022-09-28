@@ -1,3 +1,16 @@
 fieldset{
-    
+    padding: 1em;
+    background-color: #f8f8f8;
+    margin: 1em;
+}
+legend{
+    font-weight: bold;
+}
+label{
+    display: block;
+    cursor: pointer;
+}
+input{
+    width: 20em;
+
 }
