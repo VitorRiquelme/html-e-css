@@ -43,9 +43,11 @@ h3{
     text-align: center;
 }
 .cont1 span.cont2{
+    width: 500px;
     background-color: black;
     padding: 18px;
     font-size: 25px;
     letter-spacing: 5px;
     color: white;
+    z-index: 2;
 }
