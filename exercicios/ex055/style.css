@@ -1,7 +1,7 @@
 .caixa{
     width: 300px;
     height: 300px;
-    background-color: grey;
+    background: linear-gradient(to right, red, green);
     padding: 10px;
     border-radius: 10px;
 }
