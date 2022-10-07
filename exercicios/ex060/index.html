@@ -24,10 +24,23 @@
 </head>
 <body>
   <h1>navegação simples / abas</h1>
-  <ul class="nav">
-    <li><a href="#">Home</a></li>
-    <li><a href="#">home</a></li>
-    <li><a href="#">home</a></li>
+  <ul class="nav nav-pills flex-column"><!--Classe "nav" Para criar um meno de navegção porém ao defenir esse valor vai ter que colocar class "nav-item" dentro do li e um class"nav-link"Dentro do link obviamnte-->
+    <!--Nav pills para ver qual dos items da ativo -->
+    <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+    <li class="nav-item"><a href="#" class="nav-link active">Sobre</a></li>
+    <li class="nav-item"><a href="#" class="nav-link">Serviços</a></li>
   </ul>
+  <h1>Barra de navegação simples</h1>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <!--Logo-->
+    <a href="" class="navbar-brand">Logo do site</a>
+
+    <!--Navegação-->
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
+    </ul>
+  </nav>
 </body>
 </html>
