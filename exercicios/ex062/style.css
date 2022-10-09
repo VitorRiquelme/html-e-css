@@ -1,0 +1,33 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: #24252a;
+}
+li, a {
+  color: #edf0f1;
+  text-decoration: none;
+  font-size: 19px;
+}
+header{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 10%;
+}
+.logo{
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+  margin-right: auto;
+}
+.nav-links li{
+  display: inline-block;
+  padding: 0 20px;
+}
+.nav-links li a{
+  transition: all 0.3s ease 0s;
+}
+.nav-links li a:hover{
+  color: #0088a9;
+}
