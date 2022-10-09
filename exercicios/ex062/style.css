@@ -1,13 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap');
 *{
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: 'Sans Pro', sans-serif;
+}
+body{
+  position: relative;
   background-color: #24252a;
 }
 li, a {
   color: #edf0f1;
   text-decoration: none;
-  font-size: 19px;
+  font-size: 14px;
 }
 header{
   display: flex;
@@ -16,10 +21,15 @@ header{
   padding: 30px 10%;
 }
 .logo{
-  width: 70px;
-  height: 70px;
   cursor: pointer;
   margin-right: auto;
+  font-family: 'Itim', sans-serif;
+  font-size: 25px;
+  color: rgba(243, 31, 31, 0.836);
+  transition: 0.3s ease 0s;
+}
+.logo:hover{
+  color: red;
 }
 .nav-links li{
   display: inline-block;
@@ -30,4 +40,29 @@ header{
 }
 .nav-links li a:hover{
   color: #0088a9;
+}
+.imagem-centro{
+  width: 200px;
+  height: 200px;
+}
+.principal{
+  width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  background-color:rgba(240, 238, 238, 0.904) ;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 15px;
+  margin-top: 20px;
+}
+.imagem-texto{
+ 
+}
+.texto{
+  margin-left: 10px;
+ text-align: justify;
+}
+.musicas{
+
 }
