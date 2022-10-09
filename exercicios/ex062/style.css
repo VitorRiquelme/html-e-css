@@ -48,21 +48,32 @@ header{
 .principal{
   width: 1100px;
   margin: 0 auto;
-  display: flex;
-  background-color:rgba(240, 238, 238, 0.904) ;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  align-items: center;
   padding: 15px;
   margin-top: 20px;
 }
 .imagem-texto{
- 
+ display: flex;
+ align-items: center;
 }
 .texto{
-  margin-left: 10px;
  text-align: justify;
+ color: rgba(240, 238, 238, 0.904);
 }
 .musicas{
-
+  background-color:rgba(240, 238, 238, 0.904) ;
+  text-align: center;
+}
+.hospedagem{
+  display: flex;
+  justify-content: space-between;
+  margin: 16px 10px;
+}
+.spotify{
+  background-color: green;
+}
+.deezer{
+  background-color: yellow;
+}
+.youtube{
+  background-color: red;
 }
