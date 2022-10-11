@@ -34,16 +34,21 @@
   <form action="">
     <div class="form-group">
       <label for="usuarios">usuario</label>
-      <input class="form-control" type="text" id="usuarios" name="usuarios" placeholder="Digite seu usuario">
+      <input class="form-control form-control-sm" type="text" id="usuarios" name="usuarios" placeholder="Digite seu usuario">
     </div>
-    <div class="form-group">
+    <div class="form-group"><!--Clas form group para ter umespaço e formatar-->
       <label for="email">email</label>
-      <input class="form-control" type="email" id="email" name="email" placeholder="Digite seu e-mail" readonly>
-      <small>Email será Validado</small>
+      <input class="form-control" type="email" id="email" name="email" placeholder="Digite seu e-mail" ><!--Class form-control para fomatar o input-->
+      <small class="form-text">Email será Validado</small>
     </div>
     <div>
+      <label for="estados">Estados</label>
+      <select name="estados" id="estados">
+        <option value="">Acre</option>
+        <option value="">Rio de Janeiro</option>
+        <option value="">São Paulo</option>
+      </select>
+    </div>
   </form>
-
-  </div>
 </body>
 </html>
