@@ -32,12 +32,60 @@
 <body>
   <h2>Alertas</h2>
   <div class="alert alert-danger"><!--Classe alerta para adicionar um espaçamento interno e alert-danger para adicionar a cor da clasee-->
+    <strong>Danger</strong> você tem uma postagem pendente !
+  </div>
+
+  <div class="alert alert-primary"><!--Classe alerta para adicionar um espaçamento interno e alert-danger para adicionar a cor da clasee-->
     <strong>Primary</strong> você tem uma postagem pendente !
   </div>
+ 
+  <div class="alert alert-warning"><!--Classe alerta para adicionar um espaçamento interno e alert-danger para adicionar a cor da clasee-->
+    <strong>Warning</strong> você tem uma postagem pendente !
+  </div>
+
+  <div class="alert alert-success"><!--Classe alerta para adicionar um espaçamento interno e alert-danger para adicionar a cor da clasee-->
+    <strong>Success</strong> você tem uma postagem pendente !
+  </div>
+
   <h2>Alertas com o botão fechar</h2>
-  <div>
-    <button class="btn btn-success">&times;</button>
+  <div class="alert alert-danger alert-dismissible">
+    <button class="btn btn-success close" data-dismiss="alert">&times;</button>
     <strong>Fechar</strong> Alerta com botão fechar
+  </div>
+
+  <h2>Alertas com mais conteudos</h2>
+  <div class="alert alert-primary">
+    <h4>tituol</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus iste, excepturi assumenda nostrum repellat, consequuntur hic quod deserunt placeat distinctio odio? Quae facilis nihil officiis ipsam, maiores adipisci aspernatur ipsum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, iure nisi! In optio excepturi itaque eligendi quae dolorem, delectus ut sequi, sint, reiciendis voluptatem vel enim assumenda commodi quo doloremque!</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus sit facilis ipsum natus beatae debitis corporis maxime, quam earum odit in iusto magnam ad optio. Error eligendi inventore tempore libero.</p>
+  </div>
+  
+  <h2>Barra de progresso</h2>
+  <div class="progress">
+    <div class="progress-bar w-75">75%</div>
+  </div>
+  <br>
+  <div class="progress">
+    <div class="progress-bar w-15 bg-danger">15%</div>
+  </div>
+  <br>
+  <div class="progress">
+    <div class="progress-bar w-50 bg-warning">50%</div>
+  </div>
+  <h2>listrado</h2>
+  <div class="progress">
+    <div class="progress-bar w-75 bg-dark progress-bar-striped">12</div>
+  </div>
+  <h2>Animada</h2>
+  <div class="progress">
+    <div class="progress-bar w-75 progress-bar-striped progress-bar-animated">75%</div>
+  </div>
+  <h2>multiplas barras</h2>
+  <div class="progress">
+    <div class="progress-bar bg-light w-15">75%</div>
+    <div class="progress-bar bg-danger w-12">75%</div>
+    <div class="progress-bar w-12">75%</div>
+    <div class="progress-bar w-21">75%</div>
   </div>
 </body>
 </html>
