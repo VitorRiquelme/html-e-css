@@ -1,0 +1,14 @@
+.container{
+  display: flex;
+  background-color: #eef;
+  border: 2px solid red;
+  padding: 15px;
+  max-width: 300px;
+  height: 300px;
+}
+.item{
+  background-color: #ccc;
+  border: 2px solid blueviolet;
+  height: 50px;
+  width: 50px;
+}
