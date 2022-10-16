@@ -46,7 +46,7 @@ h1{
   flex-wrap: wrap;
 }
 .container section{
-  flex: 1 1 100px;
+  flex: 1 0 150px;
   margin: 10px;
 }
 img{
