@@ -34,20 +34,38 @@
     </style>
 </head>
 <body>
-  <article class="container">
+  <article class="container"><!--D-flex para criar uma classec ontainer flex column para ficar em culuna e flex row é o padrão um do lado do outro-->
     <h2>Flex container e flex itens (d-flex, flex row, flex-column, flex-row-reverse)</h2>
-    <section class="caixa">
+    <section class="caixa d-flex flex-row">
       <section class="item">flex item1</section>
       <section class="item">flex item2</section>
       <section class="item">flex item3</section>
     </section>
     <br><br><br>
     <h2>Alinhamento horizontal: justify-content-alinhamento(start, center, end, around e between)</h2>
-    <section class="caixa">
+    <section class="caixa d-flex justify-content-around">
       <section class="item">flex item1</section>
       <section class="item">flex item2</section>
       <section class="item">flex item3</section>
     </section>
+    <h2>Colunas (d-flex, flex columnn,flex-column-reverse)</h2>
+    <section class="caixa d-flex flex-column">
+      <section class="item">flex item1</section>
+      <section class="item">flex item2</section>
+      <section class="item">flex item3</section>
+    </section> 
+    <h2>Alinhamentos verticais: align-items-alinhamentos(start,center,end,baseline e stretch)</h2>
+    <section class="caixa d-flex align-items-center">
+      <section class="item">flex item1</section>
+      <section class="item">flex item2</section>
+      <section class="item">flex item3</section>
+    </section>
+    <h2>Alinhamentos self: align-self-alinhamentos(start,center,end,baseline e stretch)</h2>
+    <section class="caixa d-flex ">
+      <section class="item align-self-start">flex item1</section>
+      <section class="item align-self-center">flex item2</section>
+      <section class="item align-self-end">flex item3</section>
+   </section>
   </article>
 </body>
 </html>
