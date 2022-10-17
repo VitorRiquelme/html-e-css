@@ -22,8 +22,69 @@
       integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
       crossorigin="anonymous"
     ></script>
+    <style type="text/css">
+      .marcador{
+        background: #fe9d9d;
+        border: 1px solid #f94646;
+      }
+      .marcador-container{
+        background-color: #5bf946;
+        border: 1px solid #36ae26;
+      }
+    </style>
 </head>
 <body>
+  <article class="container marcador-container"><!--Container fluid ocupa todo o espaçamento da tela/ apenas "container" Centraliza o conteudo no meio da pagina-->
   
+    <h2>Largura fixa</h2><!--Com apenas a classe "col" é possivel criar larguras fixas para cada area do conteudo  não importa se aumentar ou diminuir o tamanho da tela elas continuam do mesmo jeito-->
+      <section class="row">
+        <section class="marcador col">area1</section>
+        <section class="marcador col">area2</section>
+        <section class="marcador col">area3</section>
+        <section class="marcador col">area4</section>
+      </section>
+
+    <h2>Largura automatica(auto layout)</h2>
+    <section class="row">
+      <section class="marcador col">area1</section>
+      <section class="marcador col-6">area2</section>
+      <section class="marcador col-4">area3</section>
+    </section>
+
+    <h2>largura igual empilhada</h2><!--Se usar a classe "col-sm,md,lh e etc.." SEM ESPECIFICAR O TAMANHO DE CADA COLUNA o conteudo ficara "empilhado" no caso em linha um em cima do outro-->
+    <section class="row">
+      <section class="marcador col-sm">area1</section>
+      <section class="marcador col-sm">area2</section>
+      <section class="marcador col-sm">area3</section>
+    </section>
+
+    <h2>Ordenado</h2>
+    <section class="row"><!--Order para mudar a ordem mieo obvio igual no flexbox-->
+      <section class="marcador col-md-4 order-2">area1</section>
+      <section class="marcador col-md-4 order-1">area2</section>
+      <section class="marcador col-md-4 order-3">area3</section>
+    </section>
+
+    <h2>offset</h2>
+    <section class="row"><!--ofsset-md-3 o numero de coolunas que voce quer pular -->
+      <section class="marcador col-md-6 offset-md-3">Login...</section>
+    </section>
+
+    <h2>offset múltiplos alinhamentos</h2>
+    <section class="row"><!--ofsset-md-3 o numero de coolunas que voce quer pular -->
+      <section class="marcador col-md-3 offset-md-3">Conteudo 1</section>
+      <section class="marcador col-md-3 offset-md-2">Conteudo 2</section>
+    </section>
+
+    <h2>Aninhamento</h2>
+    <section class="row">
+      <section class="col-md-6">col-md-6
+        <section class="row">
+          <section class="marcador col-md-6">conteudo1</section>
+        </section>
+      </section>
+    </section>
+
+  </article>
 </body>
 </html>
