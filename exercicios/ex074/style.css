@@ -1,0 +1,10 @@
+.container{
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 1fr ;
+  gap: 20px;
+
+}
+.grid-item{
+  background-color: brown;
+  border: 2px solid burlywood;
+}
